@@ -8,7 +8,6 @@ require (
 	github.com/mattn/go-colorable v0.1.13
 	github.com/mitchellh/colorstring v0.0.0-20190213212951-d06e56a500db
 	github.com/sirupsen/logrus v1.9.3
-	github.com/ujiro99/logcatf v1.1.1
 	golang.org/x/text v0.12.0
 )
 

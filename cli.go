@@ -4,10 +4,9 @@ import (
 	"fmt"
 	"golang.org/x/text/transform"
 	"io"
+	"logcatf/logcat"
 	"regexp"
 	"runtime"
-
-	"github.com/ujiro99/logcatf/logcat"
 
 	"github.com/alecthomas/kingpin/v2"
 	"github.com/maki-daisuke/go-lines"

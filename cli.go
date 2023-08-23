@@ -2,17 +2,17 @@ package main
 
 import (
 	"fmt"
+	"golang.org/x/text/transform"
 	"io"
 	"regexp"
 	"runtime"
 
 	"github.com/ujiro99/logcatf/logcat"
 
-	"github.com/Maki-Daisuke/go-lines"
-	log "github.com/Sirupsen/logrus"
+	"github.com/alecthomas/kingpin/v2"
+	"github.com/maki-daisuke/go-lines"
+	log "github.com/sirupsen/logrus"
 	"golang.org/x/text/encoding/japanese"
-	"golang.org/x/text/transform"
-	"gopkg.in/alecthomas/kingpin.v2"
 )
 
 // Exit codes are int values that represent an exit code for a particular error.
